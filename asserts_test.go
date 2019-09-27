@@ -38,8 +38,14 @@ func TestNotEqual(t *testing.T) {
 	}
 }
 
+type myStruct struct {
+	a *string
+}
+
 func TestNil(t *testing.T) {
 	Nil(t, nil)
+	m := myStruct{}
+	Nil(t, m.a)
 }
 
 func TestNotNil(t *testing.T) {
