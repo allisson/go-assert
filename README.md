@@ -1,7 +1,7 @@
 # go-assert
-[![Build Status](https://travis-ci.org/allisson/go-assert.svg)](https://travis-ci.org/allisson/go-assert)
+[![Build Status](https://github.com/allisson/go-assert/workflows/release/badge.svg)](https://github.com/allisson/go-assert/actions)
 [![Go Report Card](https://goreportcard.com/badge/github.com/allisson/go-assert)](https://goreportcard.com/report/github.com/allisson/go-assert)
-[![Documentation](https://godoc.org/github.com/allisson/go-assert?status.svg)](http://godoc.org/github.com/allisson/go-assert)
+[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/allisson/go-assert)
 
 Simple asserts to use with golang testing.
 
