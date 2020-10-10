@@ -3,6 +3,8 @@ package assert
 import (
 	"reflect"
 	"testing"
+
+	"github.com/google/go-cmp/cmp"
 )
 
 // Equal compares two values using reflect.DeepEqual and fails if not equals
@@ -10,7 +12,7 @@ func Equal(t *testing.T, expected, current interface{}) {
 	t.Helper()
 
 	if !reflect.DeepEqual(expected, current) {
-		t.Fatalf("assertion_type=Equal, expected_value=%#v, expected_type=%T, current_value=%#v, current_type=%T", expected, expected, current, current)
+		t.Fatalf("assertion_type=Equal, expected_value=%#v, expected_type=%T, current_value=%#v, current_type=%T, diff=(-expected +current):\n%s", expected, expected, current, current, cmp.Diff(expected, current))
 	}
 }
 
