@@ -1,7 +1,7 @@
 {
-  "name": "go-env",
+  "name": "go-assert",
   "version": "0.0.0",
-  "description": "A simple golang library to get values from environment variables.",
+  "description": "Simple asserts to use with golang testing.",
   "release": {
     "plugins": [
       "@semantic-release/commit-analyzer",
@@ -27,14 +27,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/allisson/go-env.git"
+    "url": "git+https://github.com/allisson/go-assert.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/allisson/go-env/issues"
+    "url": "https://github.com/allisson/go-assert/issues"
   },
-  "homepage": "https://github.com/allisson/go-env#readme",
+  "homepage": "https://github.com/allisson/go-assert#readme",
   "dependencies": {
     "@semantic-release/commit-analyzer": "^8.0.1",
     "@semantic-release/git": "^9.0.0",
